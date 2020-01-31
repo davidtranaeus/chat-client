@@ -1,0 +1,33 @@
+body { 
+  font: 13px Arial; 
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+ul { 
+  width: 40%; 
+  list-style: none; 
+  padding: 0
+}
+
+ul li:nth-child(odd) {
+  background: #eee;
+}
+
+ul li {
+  margin: 5px 0px;
+  padding: 5px;
+}
+
+.controllers {
+  width: 40%;
+}
+
+form {
+  margin: 5px 0px;
+}
+
+.info {
+  color: darkolivegreen;
+}
